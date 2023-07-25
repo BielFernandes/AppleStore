@@ -1,0 +1,95 @@
+/* Estilos globais */
+  
+  /* Estilos para o cabeçalho */
+  .header-login {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  /* Estilos para a seção de login */
+  .containner-login {
+    width: 30rem;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-top: 5rem;
+  }
+  
+
+  
+  .left-header-logion img {
+    height: 60px;
+  }
+  
+  .right-header-login p {
+    margin: 0;
+  }
+  
+  .text-login {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .login h1 {
+    font-size: 24px;
+  }
+  
+  .link-login {
+    margin-top: 10px;
+    color: #000000;
+  }
+  .link-login{
+    color: #000000;
+  }
+  .inputs-form-login div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+  }
+  
+  #input-email,
+  #input-senha {
+    margin-top: 15px;
+    width: 100%;
+    max-width: 25rem;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    outline: none;
+  }
+
+  .label-input{
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  #btn-login {
+    margin-top: 20px;
+    width: 10rem;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #btn-login:hover {
+    background-color: #38b6f9;
+  }

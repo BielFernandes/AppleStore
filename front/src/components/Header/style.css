@@ -1,0 +1,152 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-style: none;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#img-logo{
+    width: 8rem;
+}
+
+#img-logo2{
+  width: 4rem;
+  height: 4rem;
+  position: fixed;
+  top: 8rem;
+  left: 1rem;
+  z-index: 1000;
+}
+
+
+.div-topo{
+    display: flex;
+    height: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.input-pesquisar{
+  display: flex;
+}
+
+.input-pesquisar input{
+    width: 40rem;
+    height: 2.5rem;
+    border-radius: .2rem 0rem 0rem .2rem;
+    padding-left: 5px;
+    outline: none;
+}
+
+.button-send{
+  height: 2.5rem;
+  width: 35px;
+  background-color: #ffffff;
+  border-radius: 0rem .2rem .2rem 0rem;
+  padding: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .6rem;
+
+}
+
+.div-user{
+  display: flex;
+  height: 2rem;
+  gap: 1rem;
+  padding-right: 20px;
+}
+
+.div-user li a {
+  color: rgb(167, 167, 167);
+  text-decoration: none;
+}
+
+.div-user li a:hover {
+  color: #38B6F9;
+}
+
+
+.ul-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  height: 2rem;
+}
+
+.ul-nav li a{
+  text-decoration: none;
+  color: rgb(167, 167, 167);
+  font-weight: 500;
+}
+
+.ul-nav li a:hover{
+  color: #38B6F9;
+}
+.iconsUser{
+  height: 100%;
+  width: 25px;
+}
+.textUser{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  color: rgb(167, 167, 167);
+}
+
+.espec-user{
+  width: 170px;
+  background-color: #e06464;
+  display: flex;
+}
+
+.text{
+  font-weight: 700;
+  font-size: .9rem;
+  margin-left: -.7rem;
+}
+
+
+@media screen and (max-width: 1000px){
+  .div-topo{
+    margin-right: 0.3rem;
+    margin-left: 0.3rem;
+    justify-content: space-around;
+
+  }
+  .input-pesquisar input{
+    width: 20rem;
+  }
+
+}
+
+@media screen and (max-width: 660px) {
+  .div-user{
+    font-size: .7rem;
+  }
+  .input-pesquisar input{
+    width: 8rem;
+  }
+  .button-send {
+    width: 2rem;
+  }
+  #img-logo{
+    width: 6rem;
+  }
+} 

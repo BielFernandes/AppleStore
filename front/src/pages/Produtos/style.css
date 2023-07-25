@@ -1,0 +1,114 @@
+
+.container-pai{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.container-filtro{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 20%;
+    height: 100%;
+}
+
+.ul-filtro{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .4rem;
+}
+
+.ul-filtro h3{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.div-separador{
+    height: .133rem;
+    background-color: black;
+}
+
+.container-produtos{
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.card-produto{
+    border: .1rem solid rgb(206, 206, 206);
+    width: 16rem;
+    height: 22rem;
+    padding: 1rem;
+}
+
+.card-produto .header-produto {
+    margin-bottom: 1.7rem;
+}
+
+.card-produto .header-produto h2{
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.card-produto .header-produto img{
+    width: 13rem;
+}
+
+.card-produto .header-produto{
+    height: 75%;
+}
+
+.card-produto .footer-produto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 20%;
+
+}
+
+#div-desconto{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+#valor{
+    text-decoration: line-through;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+#span-oferta{
+    font-weight: 700;
+    color: red;
+    font-size: .7rem;
+    margin-left: -.05rem;
+}
+
+.card-produto .footer-produto .price-discount {
+    display: flex;
+    gap: .1rem;
+    margin-bottom: .8rem;
+}
+
+.card-produto .footer-produto .price{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.card-produto .footer-produto .parcelas{
+    font-size: .8rem;
+}
+
+.container-produtos *{
+    text-decoration: none;
+    color: black;
+}
+

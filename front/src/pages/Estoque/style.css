@@ -1,0 +1,42 @@
+aside {
+    width: 250px;
+    text-align: left;
+    margin: 16px;
+}
+
+.content {
+    width: 100%;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0;
+}
+
+.estoque {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-link {
+    font-size: 12px;
+}
+
+.main-estoque {
+    display: flex;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .container,
+    .main-estoque {
+        flex-direction: column;
+    }
+
+    ul.product-list {
+        width: 100%;
+    }
+
+
+}
